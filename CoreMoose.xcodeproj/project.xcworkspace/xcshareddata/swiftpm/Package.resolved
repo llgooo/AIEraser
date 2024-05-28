@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "matft",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jjjkkkjjj/Matft.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7e190f12f892c1e8c357d2120759764f540ca270"
+      }
+    },
+    {
+      "identity" : "purchases-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RevenueCat/purchases-ios.git",
+      "state" : {
+        "revision" : "78d2f159d6d647f26ae5a9dd38276ea06403e7ec",
+        "version" : "4.25.9"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections",
+      "state" : {
+        "revision" : "a902f1823a7ff3c9ab2fba0f992396b948eda307",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}
