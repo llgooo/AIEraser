@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2023-12-23 15.05.21 - A subtly purple-themed avatar for a Twitter user named CoreMoose, focusing on minimal use of purple. The avatar showcases a digital, tech-inspired moo.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
