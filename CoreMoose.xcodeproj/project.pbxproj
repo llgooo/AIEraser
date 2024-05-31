@@ -54,16 +54,16 @@
 		EEAF63672B46952200A38377 /* EarseToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF63662B46952200A38377 /* EarseToolView.swift */; };
 		EEAF63692B469B1400A38377 /* UpscalerToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF63682B469B1400A38377 /* UpscalerToolView.swift */; };
 		EEBC62452B298F9200A3F73D /* CGRect+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC62442B298F9200A3F73D /* CGRect+Ext.swift */; };
-		EEBC62472B29A30900A3F73D /* LaMa.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEBC62462B29A30900A3F73D /* LaMa.mlpackage */; };
 		EEDE66062B3D7EF0004AD55C /* TowFingerDraggableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE66052B3D7EF0004AD55C /* TowFingerDraggableImage.swift */; };
 		EEE8DFD82B1EFB6500BAC768 /* UIImage+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8DFD72B1EFB6500BAC768 /* UIImage+Extras.swift */; };
 		EEE8DFDC2B1F0B0E00BAC768 /* SegmentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8DFDB2B1F0B0E00BAC768 /* SegmentConfiguration.swift */; };
-		EEED0FEA2C09617A004378ED /* Upscaler512.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FE92C09617A004378ED /* Upscaler512.mlpackage */; };
 		EEED0FEF2C09621D004378ED /* Matft in Frameworks */ = {isa = PBXBuildFile; productRef = EEED0FEE2C09621D004378ED /* Matft */; };
 		EEED0FF22C096315004378ED /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EEED0FF12C096315004378ED /* RevenueCat */; };
+		EEED0FFD2C096B0E004378ED /* LaMa.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */; };
+		EEED0FFE2C096B0E004378ED /* MiGan.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */; };
+		EEED0FFF2C096B0E004378ED /* Upscaler512.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */; };
 		EEF8C1072B3AB15E00BA05C7 /* UpscalerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8C1062B3AB15E00BA05C7 /* UpscalerView.swift */; };
 		EEF8C1092B3AB1C800BA05C7 /* UpscalerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8C1082B3AB1C800BA05C7 /* UpscalerModel.swift */; };
-		EEF9D2CC2B28545200608478 /* MiGan.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEF9D2CB2B28545100608478 /* MiGan.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,14 +117,14 @@
 		EEAF63662B46952200A38377 /* EarseToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarseToolView.swift; sourceTree = "<group>"; };
 		EEAF63682B469B1400A38377 /* UpscalerToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalerToolView.swift; sourceTree = "<group>"; };
 		EEBC62442B298F9200A3F73D /* CGRect+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Ext.swift"; sourceTree = "<group>"; };
-		EEBC62462B29A30900A3F73D /* LaMa.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = LaMa.mlpackage; path = ../../../../../ai/migan/LaMa.mlpackage; sourceTree = "<group>"; };
 		EEDE66052B3D7EF0004AD55C /* TowFingerDraggableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowFingerDraggableImage.swift; sourceTree = "<group>"; };
 		EEE8DFD72B1EFB6500BAC768 /* UIImage+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extras.swift"; sourceTree = "<group>"; };
 		EEE8DFDB2B1F0B0E00BAC768 /* SegmentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentConfiguration.swift; sourceTree = "<group>"; };
-		EEED0FE92C09617A004378ED /* Upscaler512.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Upscaler512.mlpackage; sourceTree = "<group>"; };
+		EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = LaMa.mlpackage; path = ML/LaMa.mlpackage; sourceTree = "<group>"; };
+		EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = MiGan.mlpackage; path = ML/MiGan.mlpackage; sourceTree = "<group>"; };
+		EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = Upscaler512.mlpackage; path = ML/Upscaler512.mlpackage; sourceTree = "<group>"; };
 		EEF8C1062B3AB15E00BA05C7 /* UpscalerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalerView.swift; sourceTree = "<group>"; };
 		EEF8C1082B3AB1C800BA05C7 /* UpscalerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalerModel.swift; sourceTree = "<group>"; };
-		EEF9D2CB2B28545100608478 /* MiGan.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MiGan.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,19 +279,11 @@
 		EE296C702B1D7AB3007A701D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EE296C712B1D7ACA007A701D /* coreml */,
+				EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */,
+				EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */,
+				EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		EE296C712B1D7ACA007A701D /* coreml */ = {
-			isa = PBXGroup;
-			children = (
-				EEBC62462B29A30900A3F73D /* LaMa.mlpackage */,
-				EEED0FE92C09617A004378ED /* Upscaler512.mlpackage */,
-				EEF9D2CB2B28545100608478 /* MiGan.mlpackage */,
-			);
-			path = coreml;
 			sourceTree = "<group>";
 		};
 		EE3CFF8B2B371822007F0E08 /* Setting */ = {
@@ -452,7 +444,6 @@
 				EE9C64902B3D291D000B8C1A /* PrivacyPolicyView.swift in Sources */,
 				EE296CC72B1EC729007A701D /* ImagePixelConstants.swift in Sources */,
 				EE296CA02B1EC1AE007A701D /* PointSegment.swift in Sources */,
-				EEF9D2CC2B28545200608478 /* MiGan.mlpackage in Sources */,
 				EE296C9E2B1EC18E007A701D /* ImageState.swift in Sources */,
 				EEBC62452B298F9200A3F73D /* CGRect+Ext.swift in Sources */,
 				EE8F21C52B36D59700C6CC86 /* ShareSheet.swift in Sources */,
@@ -462,11 +453,12 @@
 				EE296CAE2B1EC417007A701D /* GestureMaskShape.swift in Sources */,
 				EE8F21C12B3596F300C6CC86 /* MiGanModel.swift in Sources */,
 				EE296CB62B1EC559007A701D /* CGImage+Extras.swift in Sources */,
+				EEED0FFE2C096B0E004378ED /* MiGan.mlpackage in Sources */,
 				EE296CBC2B1EC605007A701D /* PointsSegment_Array+Extras.swift in Sources */,
-				EEBC62472B29A30900A3F73D /* LaMa.mlpackage in Sources */,
 				EEA77C5C2B708DFE003CB5B2 /* PhotoPickerView.swift in Sources */,
+				EEED0FFD2C096B0E004378ED /* LaMa.mlpackage in Sources */,
 				EE296CAC2B1EC3A8007A701D /* Data+Extras.swift in Sources */,
-				EEED0FEA2C09617A004378ED /* Upscaler512.mlpackage in Sources */,
+				EEED0FFF2C096B0E004378ED /* Upscaler512.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
