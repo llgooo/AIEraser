@@ -59,9 +59,9 @@
 		EEE8DFDC2B1F0B0E00BAC768 /* SegmentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8DFDB2B1F0B0E00BAC768 /* SegmentConfiguration.swift */; };
 		EEED0FEF2C09621D004378ED /* Matft in Frameworks */ = {isa = PBXBuildFile; productRef = EEED0FEE2C09621D004378ED /* Matft */; };
 		EEED0FF22C096315004378ED /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EEED0FF12C096315004378ED /* RevenueCat */; };
-		EEED0FFD2C096B0E004378ED /* LaMa.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */; };
 		EEED0FFE2C096B0E004378ED /* MiGan.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */; };
 		EEED0FFF2C096B0E004378ED /* Upscaler512.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */; };
+		EEED100C2C096FA1004378ED /* LaMa.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = EEED100B2C096FA1004378ED /* LaMa.mlpackage */; };
 		EEF8C1072B3AB15E00BA05C7 /* UpscalerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8C1062B3AB15E00BA05C7 /* UpscalerView.swift */; };
 		EEF8C1092B3AB1C800BA05C7 /* UpscalerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8C1082B3AB1C800BA05C7 /* UpscalerModel.swift */; };
 /* End PBXBuildFile section */
@@ -120,9 +120,9 @@
 		EEDE66052B3D7EF0004AD55C /* TowFingerDraggableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowFingerDraggableImage.swift; sourceTree = "<group>"; };
 		EEE8DFD72B1EFB6500BAC768 /* UIImage+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extras.swift"; sourceTree = "<group>"; };
 		EEE8DFDB2B1F0B0E00BAC768 /* SegmentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentConfiguration.swift; sourceTree = "<group>"; };
-		EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = LaMa.mlpackage; path = ML/LaMa.mlpackage; sourceTree = "<group>"; };
 		EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = MiGan.mlpackage; path = ML/MiGan.mlpackage; sourceTree = "<group>"; };
 		EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = Upscaler512.mlpackage; path = ML/Upscaler512.mlpackage; sourceTree = "<group>"; };
+		EEED100B2C096FA1004378ED /* LaMa.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = LaMa.mlpackage; sourceTree = "<group>"; };
 		EEF8C1062B3AB15E00BA05C7 /* UpscalerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalerView.swift; sourceTree = "<group>"; };
 		EEF8C1082B3AB1C800BA05C7 /* UpscalerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,9 +279,9 @@
 		EE296C702B1D7AB3007A701D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EEED0FFA2C096B0D004378ED /* LaMa.mlpackage */,
 				EEED0FFB2C096B0E004378ED /* MiGan.mlpackage */,
 				EEED0FFC2C096B0E004378ED /* Upscaler512.mlpackage */,
+				EEED100B2C096FA1004378ED /* LaMa.mlpackage */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -422,6 +422,7 @@
 				EEAF63672B46952200A38377 /* EarseToolView.swift in Sources */,
 				EE296C7D2B1D80B2007A701D /* CoreMLHelper.swift in Sources */,
 				EE3A048C2B4526470090D97C /* Publisher+ext.swift in Sources */,
+				EEED100C2C096FA1004378ED /* LaMa.mlpackage in Sources */,
 				EE296C5E2B1D78F5007A701D /* CoreEraserApp.swift in Sources */,
 				EEE8DFDC2B1F0B0E00BAC768 /* SegmentConfiguration.swift in Sources */,
 				EE296C7B2B1D7C14007A701D /* Utils.swift in Sources */,
@@ -456,7 +457,6 @@
 				EEED0FFE2C096B0E004378ED /* MiGan.mlpackage in Sources */,
 				EE296CBC2B1EC605007A701D /* PointsSegment_Array+Extras.swift in Sources */,
 				EEA77C5C2B708DFE003CB5B2 /* PhotoPickerView.swift in Sources */,
-				EEED0FFD2C096B0E004378ED /* LaMa.mlpackage in Sources */,
 				EE296CAC2B1EC3A8007A701D /* Data+Extras.swift in Sources */,
 				EEED0FFF2C096B0E004378ED /* Upscaler512.mlpackage in Sources */,
 			);
