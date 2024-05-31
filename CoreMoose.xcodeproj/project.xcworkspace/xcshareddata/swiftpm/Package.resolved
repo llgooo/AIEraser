@@ -1,4 +1,5 @@
 {
+  "originHash" : "15f9c479784b608249181101acb9cc030774835458f30082b06c539c82b33d8e",
   "pins" : [
     {
       "identity" : "matft",
@@ -6,7 +7,7 @@
       "location" : "https://github.com/jjjkkkjjj/Matft.git",
       "state" : {
         "branch" : "master",
-        "revision" : "7e190f12f892c1e8c357d2120759764f540ca270"
+        "revision" : "d70047a436c1ab00707019d1b3e03bc8e63eba25"
       }
     },
     {
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RevenueCat/purchases-ios.git",
       "state" : {
-        "revision" : "78d2f159d6d647f26ae5a9dd38276ea06403e7ec",
-        "version" : "4.25.9"
+        "revision" : "7ff1261d7bbbf51e76010b4c48aba2827350a2f5",
+        "version" : "4.10.0"
       }
     },
     {
@@ -23,10 +24,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections",
       "state" : {
-        "revision" : "a902f1823a7ff3c9ab2fba0f992396b948eda307",
-        "version" : "1.0.5"
+        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
+        "version" : "1.1.0"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
